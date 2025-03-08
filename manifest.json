@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Cavs AI Comment Detector",
+    "version": "1.0",
+    "description": "Detects potential AI-generated comments on r/clevelandcavs",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.reddit.com/r/clevelandcavs/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "/icons/icon48.png",
+      "128": "/icons/icon128.png"
+    }
+  }

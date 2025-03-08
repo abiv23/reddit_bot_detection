@@ -1,0 +1,12 @@
+
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basketball (orange circle with black lines) -->
+  <circle cx="64" cy="64" r="62" fill="#f28c38" stroke="#000" stroke-width="2"/>
+  <path d="M32,32 Q64,64 96,32" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M32,96 Q64,64 96,96" stroke="#000" stroke-width="2" fill="none"/>
+  <line x1="64" y1="0" x2="64" y2="128" stroke="#000" stroke-width="2"/>
+  <!-- Red Bullseye -->
+  <circle cx="64" cy="64" r="32" fill="red"/>
+  <circle cx="64" cy="64" r="16" fill="white"/>
+  <circle cx="64" cy="64" r="8" fill="red"/>
+</svg>
